@@ -1,5 +1,6 @@
 #include <iostream>
-#include <windows.h>
+// only used for widows.
+#include <windows.h> 
 
 int main() {
 	std::string Name;
@@ -53,7 +54,7 @@ while (pill != 'a' && pill != 'b') {
 		std::cout << "(a) for yes and (b) for no\n";
 		std::cin >> tr1;
 		while (tr1 != 'a' && tr1 != 'b') {
-			std::cout << "Please choose (a) or (b) only you dump ass\n";
+			std::cout << "Please choose (a) or (b) only.\n";
 			std::cin >> tr1;
 		}
 		if (tr1 == 'a') {
@@ -74,7 +75,7 @@ while (pill != 'a' && pill != 'b') {
 			std::cout << "Do you love trinity (a) for yes (b) for no\n";
 			std::cin >> tr2;
 			while (tr2 != 'a' && tr2 != 'b') {
-				std::cout << "Please choose a or b only you dump ass\n";
+				std::cout << "Please choose (a) or (b) only.\n";
 				std::cin >> tr2;
 			}
 			if (tr2 == 'b') {
